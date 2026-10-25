@@ -1,0 +1,29 @@
+# Credenciales y variables de entorno
+.env
+.env.*
+!.env.example
+
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+
+# Angular / Node.js
+node_modules/
+dist/
+.angular/
+
+# Otras dependencias y compilaciones
+vendor/
+build/
+
+# Datos locales
+mysql_data/
+
+# Logs
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
